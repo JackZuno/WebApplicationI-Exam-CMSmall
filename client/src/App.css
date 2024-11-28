@@ -1,0 +1,188 @@
+#root {
+  background-color: #c0c0c0;
+  -webkit-text-size-adjust: 100%;
+} 
+
+.App {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+/* navbar */
+.navbar-name {
+  background: rgba(6, 0, 90, 0.692);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.user-icon {
+  flex: 0 0 50%;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-icon:hover {
+  color: rgb(0, 185, 169);
+  background: rgba(6, 0, 90, 0.692);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.welcome {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.brand-icon {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.brand-icon:hover {
+  color: rgb(0, 185, 169);
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* table-pages */
+#table-pages {
+  margin-left: 1.5rem;
+}
+
+#table-pages th {
+  margin-left: 2rem;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(6, 0, 90, 0.692);
+  color: white;
+}
+
+/* Welcome to NAMEWEBAPP */
+.title-webApp {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.av-paiges {
+  margin-left: 1.5rem;
+}
+
+/* action icon */
+.action-icon {
+  color: rgba(6, 0, 90, 0.692);
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0%;
+}
+
+.action-icon:hover {
+  color: rgb(0, 65, 119);
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  animation: zoom-in-zoom-out2 2s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out2 {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+/* Change title icon */
+.change-title {
+  color: rgba(6, 0, 90, 0.692);
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.change-title:hover {
+  color: rgb(0, 65, 119);
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  animation: zoom-in-zoom-out 1.5s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: rotate(360deg);
+    transform: scale(1, 1);
+  }
+}
+
+/* page content */
+.page-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.info-page {
+  margin-right: 2rem;
+}
+
+.button-add {
+  background-color: rgba(6, 0, 90, 0.692);
+  border: none;
+  margin-top: 35rem;
+}
+
+.button-add:hover {
+  background-color: rgb(0, 65, 119);
+}
+
+.button-all {
+  background-color: rgba(6, 0, 90, 0.692);
+  border: none;
+  margin-left: 50%;
+}
+
+.button-all:hover {
+  background-color: rgb(0, 65, 119);
+}
+
+.order-icon {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0rem;
+}
+
+.order-icon:hover {
+  color: rgb(0, 185, 169);
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+/* form buttons */
+.form-button {
+  margin-right: 1rem;
+  margin-top: 0.70rem;
+}
